@@ -13,32 +13,6 @@ RUN_MOUSE = "run_2024-11-19_23-08-05"
 # Names and colors
 # ----------------
 
-colors_dict = {"Oncodrive3D" : "#ffad48", 
-              "HotMAPS" : "#024b79", 
-              "OncodriveCLUSTL" : "#43b7c2", 
-              "smRegions" : "#c2f1ce", 
-              "CBaSE" : "#ffb8b3", 
-              "SEISMIC" : "#ede5ff", 
-              "dNdScv" : "#edd7c5", 
-              "MutPanning" : "#cee4d8", 
-              "OncodriveFML" : "#bbd9f6",
-              "IntOGen" : "#A6D854",
-              "OncoKB" : "#66C2A5",
-              "CGC" : "#FFA04D",
-              "MSK-IMPACT" : "#FB9A99",
-              "MSK-IMPACT Heme" : "#E31A1C",
-              "FoundationOne" : "#CAB2D6",
-              "FoundationOne Heme" : "#6A3D9A",
-              "Vogelstein" : "#E5C494",
-
-              "IntOGen CH" : "#ff4d4d",
-              "IntOGen AML" : "#f3588e",
-              "IntOGen others" : "#A6D854",
-              "IntOGen Cancer" : "#A6D854",
-               
-              "CGC AML" : "#FFA04D",
-              "CGC others" : "#FFA04D"}
-
 names_dict = {"o3d" : "Oncodrive3D", 
              "hotmaps" : "HotMAPS", 
              "clustl" : "OncodriveCLUSTL", 
@@ -57,13 +31,39 @@ names_dict = {"o3d" : "Oncodrive3D",
              "fondone_heme" : "FoundationOne Heme", 
              "vogelstein" : "Vogelstein",
 
-             "intogen" : "IntOGen Cancer",
+             "intogen_cancer" : "IntOGen Cancer",
              "intogen_ch" : "IntOGen CH",
              "intogen_aml" : "IntOGen AML",
              "intogen_others" : "IntOGen others",
               
              "CGC_specific" : "CGC AML",
              "CGC_not_specific" : "CGC others"}
+
+colors_dict = {names_dict["o3d"] : "#ffad48", 
+               names_dict["hotmaps"] : "#024b79", 
+               names_dict["clustl"] : "#43b7c2", 
+               names_dict["smreg"] : "#c2f1ce", 
+               names_dict["cbase"] : "#ffb8b3", 
+               names_dict["seismic"] : "#ede5ff", 
+               names_dict["dndscv"] : "#edd7c5", 
+               names_dict["mutpan"] : "#cee4d8", 
+               names_dict["fml"] : "#bbd9f6",
+               "IntOGen" : "#A6D854",
+               "OncoKB" : "#66C2A5",
+               "CGC" : "#FFA04D",
+               "MSK-IMPACT" : "#FB9A99",
+               "MSK-IMPACT Heme" : "#E31A1C",
+               "FoundationOne" : "#CAB2D6",
+               "FoundationOne Heme" : "#6A3D9A",
+               "Vogelstein" : "#E5C494",
+
+               "IntOGen CH" : "#ff4d4d",
+               "IntOGen AML" : "#f3588e",
+               "IntOGen others" : "#A6D854",
+               "intogen_cancer" : "#A6D854",
+                
+               "CGC AML" : "#FFA04D",
+               "CGC others" : "#FFA04D"}
 
 annot_cols = ["Gene", 
               "cgc", 
