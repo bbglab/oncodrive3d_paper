@@ -7,7 +7,7 @@ RUN = "run_2024-07-01_16-04-14"
 SUBDIR_CH = "run_20241004_ch"
 RUN_CH = "run_2024-11-04_13-09-49"
 
-RUN_MOUSE = "run_2024-11-17_18-37-41"
+RUN_MOUSE = "run_2024-11-19_23-08-05"
 
 
 # Names and colors
