@@ -31,7 +31,7 @@ names_dict = {"o3d" : "Oncodrive3D",
              "fondone_heme" : "FoundationOne Heme", 
              "vogelstein" : "Vogelstein",
 
-             "intogen_cancer" : "IntOGen Cancer",
+             "intogen_cancer" : "IntOGen",
              "intogen_ch" : "IntOGen CH",
              "intogen_aml" : "IntOGen AML",
              "intogen_others" : "IntOGen others",
