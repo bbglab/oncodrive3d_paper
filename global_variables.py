@@ -5,6 +5,7 @@ import socket
 # -----
 
 WORKSPACE = "/data/bbg" if socket.gethostname().startswith("irb") else "/workspace"
+HOME = "/home/bbg" if socket.gethostname().startswith("irb") else "/home"
 
 SUBDIR = "human_mane_raw"
 RUN = "run_2024-07-01_16-04-14"
