@@ -26,11 +26,11 @@ This repository includes notebooks to reproduce the analysis performed for the p
     - Recurrence of clusters in CH: S27
 7. [contact_probability_calculation](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/7.contact_probability_calculation/spherical_gaussian.ipynb)
     - Survey on calculation of contact probability: S1
-8. [score_and_calibration](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/8.score_calibration/correction_and_qqplots.ipynb)
+8. [score_and_calibration](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/8.score_and_calibration/correction_and_qqplots.ipynb)
     - Correction of the 3D clustering score: S2, S3, S4, S5, S6
     - Distribution of p-values: S11, S12
     - QQ-plots: S18
-9. [simulations_and_ranking](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/9.simulations_and_ranking/correction_and_qqplots.ipynb)
+9. [simulations_and_ranking](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/9.simulations_and_ranking/)
     - Rank-based calculation of p-values: S8, S9, S10
 10. [alphafold_contribution](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/10.alphafold_contribution/pdb_analysis.ipynb)
     - The contribution of AlphaFold models to Oncodrive3D discovery: S13
@@ -40,5 +40,5 @@ This repository includes notebooks to reproduce the analysis performed for the p
     - Genes newly identified by Oncodrive3D with literature support: S15
 13. [data](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/13.data/data_visualization.ipynb)
     - Data visualization: S16
-13. [effect_of_hotspots](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/14.effect_of_hotspots/effect_of_hotspots.ipynb)
+13. [effect_of_hotspots](https://github.com/bbglab/oncodrive3d_paper/notebooks/14.effect_of_hotspots/effect_of_hotspots.ipynb)
     - Effect of hotspots on detected clusters and genes
