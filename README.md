@@ -32,26 +32,13 @@ This repository includes notebooks to reproduce the analysis performed for the p
     - QQ-plots: S18
 9. [simulations_and_ranking](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/9.simulations_and_ranking/correction_and_qqplots.ipynb)
     - Rank-based calculation of p-values: S8, S9, S10
-
-
-10. [pdb_analysis]
-11. [distance_analysis]
-12. [not_annotated_genes]
-7. [data](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/7.data/data_visualization.ipynb)
+10. [alphafold_contribution](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/10.alphafold_contribution/pdb_analysis.ipynb)
+    - The contribution of AlphaFold models to Oncodrive3D discovery: S13
+11. [distance_within_clusters](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/11.distance_within_clusters/distance_analysis.ipynb)
+    - Distance between clusters: S14
+12. [newly_identified_genes](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/12.newly_identified_genes/cancer_mine.ipynb)
+    - Genes newly identified by Oncodrive3D with literature support: S15
+13. [data](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/13.data/data_visualization.ipynb)
     - Data visualization: S16
-13. [effect_of_hotspots]
-
-# T1  : T4
-# T2  : T5
-# T3  : T6
-
-# S1  : S16
-# S2  : S17
-# S5  : S20
-# S6  : S21
-# S7  : S22 
-# S8  : S23
-# S9  : S24
-# S10 : S25
-# S11 : S26
-# S12 : S27
+13. [effect_of_hotspots](https://github.com/bbglab/oncodrive3d_paper/tree/master/notebooks/14.effect_of_hotspots/effect_of_hotspots.ipynb)
+    - Effect of hotspots on detected clusters and genes
